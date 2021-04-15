@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Simple Calculator</title>
+
+    <!-- Link to css -->
+    <link rel="stylesheet" href="simpleCalculatorMain.css">
+</head>
+<body>
+    <!-- Container for calculator -->
+    <div class="container">
+        <!-- Calculator display -->
+        <div class="display">
+            <h5 class="operationDisplay"></h5>
+            <h3 class="calculationDisplay"></h3>
+        </div>
+
+        <!-- Calculator keypads -->
+        <div class="keypad">
+            <button id="btnAC">AC</button>
+            <button id="btnCE">CE</button>
+            <button id="btnDivide">/</button>
+            <button id="btnMultiply">*</button>
+        </div>
+
+        <div class="keypad">
+            <button id="btn7">7</button>
+            <button id="btn8">8</button>
+            <button id="btn9">9</button>
+            <button id="btnSubstract">-</button>
+        </div>
+
+        <div class="keypad">
+            <button id="btn4">4</button>
+            <button id="btn5">5</button>
+            <button id="btn6">6</button>
+            <button id="btnAdd">+</button>
+        </div>
+                
+        <div class="keypad">
+            <div style="width: 75%;">
+                <div class="keypad">
+                    <button id="btn1" style="width: calc(100%/3);">1</button>
+                    <button id="btn2" style="width: calc(100%/3);">2</button>
+                    <button id="btn3" style="width: calc(100%/3);">3</button>
+                </div>
+
+                <div class="keypad">
+                    <button id="btn0" class="zero" style="width: calc(100%/3*2);">0</button>
+                    <button id="btnPoint" style="width: calc(100%/3);">.</button>
+                </div>
+                
+            </div>
+            
+            <button id="btnEqual" class="equal">=</button>
+            
+        </div>  
+        
+        
+        
+        
+        
+    </div>
+    
+    <!-- Connect js -->
+    <script src="simpleCalculatorApp.js"></script>
+
+</body>
+</html>
